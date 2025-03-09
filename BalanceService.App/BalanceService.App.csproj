@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BalanceService.Core\BalanceService.Core.csproj" />
+    <ProjectReference Include="..\BalanceService.Tests\BalanceService.Tests.csproj" />
+  </ItemGroup>
+
 </Project>
